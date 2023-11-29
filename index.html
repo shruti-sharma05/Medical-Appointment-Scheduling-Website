@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mediacal Appointemnt Booking</title>
+    <meta
+      name="description"
+      content="DevEnvironemnt:--MACBOOK-M2-2023--NODE-V18"
+    />
+    <link rel="shortcut icon" href="logo.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="heropage">
+      <div class="videoCover">
+        <video
+          class="video"
+          src="/video.mp4"
+          muted
+          loop
+          playsinline
+          autoplay
+          type="video/mp4"
+        ></video>
+      </div>
+      <nav>
+        <div class="navbar">
+          <div class="navbarContainer">
+            <div class="navbarLeft">
+              <div class="navIcon">
+                <img src="/logo.png" alt="logo" class="logo" />
+              </div>
+              <div class="navContent">
+                <ul>
+                  <li>URGENT CARE</li>
+                  <li>PRIMARY CARE</li>
+                  <li>MENTAL HEALTH</li>
+                  <li>PEDIATRICS</li>
+                </ul>
+              </div>
+            </div>
+            <div class="navbarRight">
+              <div class="navBtn items-center">
+                <button
+                  type="button"
+                  class="download-btn text-white ml-[0.8rem] mr-[0.8rem] bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center /mr-2 /mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="heroContent">
+        <div class="text">
+          <h1>
+            24/7 ACCESS TO <br />
+            BEST DOCTORS
+          </h1>
+          <h3>
+            Empower your health journey with seamless convenience! Book your
+            medical appointments effortlessly on our user-friendly platform,
+            prioritizing your well-being with every click.
+          </h3>
+        </div>
+        <div class="heroContentBtn">
+          <button
+            type="button"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center /mr-2 /mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Get Started
+          </button>
+        </div>
+        <div class="blur-icons-container">
+          <ul class="stat_items">
+            <li>
+              <div class="stat_item-icon">
+                <img
+                  src="https://khealth.com/wp-content/uploads/2023/03/intentIcon-group-sky95-dotBL-equal-32px.png"
+                  alt="intentIcon-group-sky95-dotBL-equal-32px"
+                  class="hide-mobile"
+                />
+              </div>
+              <div class="gg stat_item-stat">
+                <p><strong>25K+</strong> Users</p>
+              </div>
+            </li>
+            <li>
+              <div class="stat_item-icon">
+                <img
+                  src="https://khealth.com/wp-content/uploads/2023/03/intentIcon-US-sky95-dotTR-equal-32px.png"
+                  alt="intentIcon-US-sky95-dotTR-equal-32px"
+                  class="hide-mobile"
+                />
+              </div>
+              <div class="gg stat_item-stat">
+                <p><strong>48</strong> States served</p>
+              </div>
+            </li>
+            <li>
+              <div class="stat_item-icon">
+                <img
+                  src="https://khealth.com/wp-content/uploads/2023/03/intentIcon-247-sky95-dotBR-equal-32px.png"
+                  alt="intentIcon-247-sky95-dotBR-equal-32px"
+                  class="hide-mobile"
+                />
+              </div>
+              <div class="gg stat_item-stat">
+                <p><strong>24/7</strong> Urgent Care</p>
+              </div>
+            </li>
+            <li>
+              <div class="stat_item-icon">
+                <img
+                  src="https://khealth.com/wp-content/uploads/2023/03/intentIcon-noInsurance-sky95-dotTL-equal-32px.png"
+                  alt="intentIcon-noInsurance-sky95-dotTL-equal-32px"
+                  class="hide-mobile"
+                />
+              </div>
+              <div class="gg stat_item-stat">
+                <p><strong>No insurance</strong> required</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="slider">
+      <section class="text-gray-600 body-font">
+        <div
+          class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+        >
+          <div
+            class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+          >
+            <h1
+              class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+            >
+              Elevate Your Wellness:
+              <br class="hidden lg:inline-block" />
+              Booking and Beyond Booking
+            </h1>
+            <p class="mb-8 leading-relaxed">
+              Embark on a holistic health experience with our array of
+              informative articles, expert insights, and personalized wellness
+              tips. Elevate your well-being journey with the knowledge and tools
+              you need for a healthier tomorrow.
+            </p>
+            <div class="flex justify-center">
+              <button
+                class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              >
+                Get Started
+              </button>
+              <button
+                class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img
+              class="object-cover object-center rounded-xl"
+              alt="hero"
+              width="720"
+              height="600"
+              src="https://source.unsplash.com/random/720x600/?docter,healthcare"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+          <div
+            class="lg:w-1/2 sm:w-1/3 w-full rounded-xl overflow-hidden mt-6 sm:mt-0 -mx-4"
+          >
+            <img
+              class="object-cover object-center w-full h-full"
+              src="https://source.unsplash.com/random/600x300/?docter,healthcare"
+              alt="stats"
+            />
+          </div>
+          <div
+            class="flex flex-wrap ml-8 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10"
+          >
+            <div class="w-full sm:p-4 px-4 mb-6">
+              <h1 class="title-font font-medium text-xl mb-2 text-gray-900">
+                Elevating Impact in Numbers
+              </h1>
+              <div class="leading-relaxed">
+                Explore our journey through the lens of statistics, where every
+                number reflects our commitment to excellence. From satisfied
+                patients to impactful outcomes, discover the metrics that define
+                our success story.
+              </div>
+            </div>
+            <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+              <h2 class="title-font font-medium text-3xl text-gray-900">
+                25.7K
+              </h2>
+              <p class="leading-relaxed">Users</p>
+            </div>
+            <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+              <h2 class="title-font font-medium text-3xl text-gray-900">40K</h2>
+              <p class="leading-relaxed">Appointments</p>
+            </div>
+            <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+              <h2 class="title-font font-medium text-3xl text-gray-900">
+                1.5K
+              </h2>
+              <p class="leading-relaxed">Docters</p>
+            </div>
+            <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+              <h2 class="title-font font-medium text-3xl text-gray-900">10K</h2>
+              <p class="leading-relaxed">Reviews</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <h1
+            class="text-3xl font-medium title-font text-gray-900 mb-12 text-center"
+          >
+            Testimonials
+          </h1>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-100 p-8 rounded">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  class="block w-5 h-5 text-gray-400 mb-4"
+                  viewBox="0 0 975.036 975.036"
+                >
+                  <path
+                    d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                  ></path>
+                </svg>
+                <p class="leading-relaxed mb-6">
+                  The experience with this platform has been nothing short of
+                  amazing. From the sleek design to the user-friendly interface,
+                  navigating my health journey has never been easier. It's like
+                  having a personal wellness assistant at my fingertips. The
+                  attention to detail and commitment to user satisfaction truly
+                  set this service apart.
+                </p>
+                <a class="inline-flex items-center">
+                  <img
+                    alt="testimonial"
+                    src="https://source.unsplash.com/random/200*200/?cat face"
+                    class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                  />
+                  <span class="flex-grow flex flex-col pl-4">
+                    <span class="title-font font-medium text-gray-900"
+                      >Sam Shubham</span
+                    >
+                    <span class="text-gray-500 text-sm">INDIA</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-100 p-8 rounded">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  class="block w-5 h-5 text-gray-400 mb-4"
+                  viewBox="0 0 975.036 975.036"
+                >
+                  <path
+                    d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+                  ></path>
+                </svg>
+                <p class="leading-relaxed mb-6">
+                  I can't express how impressed I am with the level of
+                  innovation and convenience this platform brings to the table.
+                  It's a perfect blend of style and substance. The commitment to
+                  authenticity and user experience is evident in every detail.
+                  From chartreuse to iPhone, it's a delightful journey into a
+                  new era of health management."
+                </p>
+                <a class="inline-flex items-center">
+                  <img
+                    alt="testimonial"
+                    src="data:image/jpeg;base64,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"
+                    class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
+                  />
+                  <span class="flex-grow flex flex-col pl-4">
+                    <span class="title-font font-medium text-gray-900"
+                      >Bhupendra Jogi</span
+                    >
+                    <span class="text-gray-500 text-sm">India</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="text-gray-600 body-font relative">
+        <h1
+          class="text-3xl font-medium title-font text-gray-900 mb-12 text-center"
+        >
+          Contact Us
+        </h1>
+        <div class="container px-5 py-12 mx-auto flex sm:flex-nowrap flex-wrap">
+          <div
+            class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative"
+          >
+            <iframe
+              width="100%"
+              height="100%"
+              class="absolute inset-0"
+              frameborder="0"
+              title="map"
+              marginheight="0"
+              marginwidth="0"
+              scrolling="no"
+              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+Lovely%20Professional%20University&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+              style="filter: grayscale(1) contrast(1.2) opacity(0.4)"
+            ></iframe>
+            <div
+              class="bg-white relative flex flex-wrap py-6 rounded shadow-md"
+            >
+              <div class="lg:w-1/2 px-6">
+                <h2
+                  class="title-font font-semibold text-gray-900 tracking-widest text-xs"
+                >
+                  ADDRESS
+                </h2>
+                <p class="mt-1">Lovely Professional University, Phagwara</p>
+              </div>
+              <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                <h2
+                  class="title-font font-semibold text-gray-900 tracking-widest text-xs"
+                >
+                  EMAIL
+                </h2>
+                <a class="text-black leading-relaxed"
+                  >sharshruti12@gmail.com</a
+                >
+                <h2
+                  class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4"
+                >
+                  PHONE
+                </h2>
+                <p class="leading-relaxed">6284445063</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+          >
+            <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">
+              Feedback
+            </h2>
+            <p class="leading-relaxed mb-5 text-gray-600">
+              Share your thoughts with us. It helps us enhance your experience!
+            </p>
+            <div class="relative mb-4">
+              <label for="name" class="leading-7 text-sm text-gray-600"
+                >Name</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="w-full bg-white rounded border border-gray-300 focus:border-black focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+            <div class="relative mb-4">
+              <label for="email" class="leading-7 text-sm text-gray-600"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full bg-white rounded border border-gray-300 focus:border-black focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+            <div class="relative mb-4">
+              <label for="message" class="leading-7 text-sm text-gray-600"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                class="w-full bg-white rounded border border-gray-300 focus:border-black focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              ></textarea>
+            </div>
+            <button
+              class="text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            >
+              Submit
+            </button>
+            <p class="text-xs text-gray-500 mt-3">
+              Reference: sam@appambient.com
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- <div class="sliderText my-24">
+        <h3>OUR AREAS OF EXPERTISE</h3>
+        <h2 class="my-4">Your whole health is our specialty</h2>
+      </div>
+      <div class="flex w-[100vw] justify-center items-center">
+        <button
+          type="button"
+          class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+        >
+          Contact Us
+        </button>
+      </div> -->
+    </div>
+  </body>
+</html>
